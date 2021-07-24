@@ -124,6 +124,14 @@ export const JoinText = styled.h5`
 }
 `
 
+// export const IconContainer = styled.div`
+//   display: flex;
+
+//   @media ${props => props.theme.breakpoints.sm}{
+//     width: 160px;
+//     justify-content: space-between;
+//   }
+// `
 export const IconContainer = styled.div`
   display: flex;
 
