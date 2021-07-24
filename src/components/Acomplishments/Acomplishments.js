@@ -12,7 +12,8 @@ const data = [
 
 const Acomplishments = () => (
   <div>
-    Acomplishments
+    Placeholder - Acomplishments
+  <center> ACHIEVEMENTS SUBSECTION </center>
   </div>
 );
 
