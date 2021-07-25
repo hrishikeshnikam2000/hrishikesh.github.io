@@ -11,10 +11,18 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <div>
-    Placeholder - Acomplishments
-  <center> ACHIEVEMENTS SUBSECTION </center>
-  </div>
+  <Section>
+    <SectionTitle>Personal Achievements</SectionTitle>
+    <Boxes>
+      {data.map((card, index) => (
+        <Box key={index}>
+          <BoxNum>{`${card.number}+`}</BoxNum>
+          <BoxText>{card.text}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+    <SectionDivider/>
+  </Section>
 );
 
 export default Acomplishments;
